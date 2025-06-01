@@ -12,8 +12,8 @@ A simple tool to bulk query IPs against AbuseIPDB and export results to Excel.
 1. Clone the repo:
 
 ```bash
-git clone https://github.com/YOURUSERNAME/YOURREPO.git
-cd YOURREPO
+git clone https://github.com/captureflagsnotfeels/abuseipdbbulkcheck.git
+cd abuseipdbbulkcheck
 ```
 
 2. Install dependencies:
@@ -35,8 +35,3 @@ python abuseipdbbulkcheck.py path/to/iplist.txt
 ```
 
 Optional: use `--max-age` to set report age window (default: 90 days).
-
-## Notes
-
-- Your `.env` file and any result `.xlsx` files are ignored via `.gitignore`.
-- Do **NOT** commit your API key.
